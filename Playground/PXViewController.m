@@ -110,10 +110,6 @@
     [iConsole sharedConsole].logSubmissionEmail = @"support@pixate.com";
     [[iConsole sharedConsole] performSelector:@selector(rotateView:) withObject:nil];
     
-    // Logging settings
-    [self setLoggingLevel];
-    [PXLoggingUtils addLoggingDelegate:self];
-
     // Listen to changes in the textview
     [_textView setDelegate:self];
 
@@ -437,8 +433,6 @@
 - (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController
 {
     [standardUserDefaults_ synchronize];
-    
-    [self setLoggingLevel];
     
 //    [self applyCurrentLightMode:[[PXViewController retrieveFromUserDefaults:@"playground_lightmode"] boolValue]];
     
@@ -815,38 +809,6 @@
 	{
 		[iConsole error:@"unrecognised command, try 'version' instead"];
 	}
-}
-
-#pragma mark - Pixate Engine logging delegate
-
-- (void)logEntry:(NSString *)logItem atLogLevel:(int)logLevel
-{
-    switch (logLevel) {
-        case LOG_LEVEL_INFO:
-            [iConsole info:logItem];
-            break;
-
-        case LOG_LEVEL_WARN:
-            [iConsole warn:logItem];
-            break;
-
-        case LOG_LEVEL_ERROR:
-            [iConsole error:logItem];
-            break;
-
-        default:
-            [iConsole info:logItem];
-            break;
-    }
-}
-
-- (void)setLoggingLevel
-{
-    NSString *logLevel = [PXViewController retrieveFromUserDefaults:@"playground_logging_level"];
-    if([logLevel isEqualToString:@"Off"]) { [PXLoggingUtils setGlobalLoggingLevel:LOG_LEVEL_OFF]; }
-    else if([logLevel isEqualToString:@"Error"]) { [PXLoggingUtils setGlobalLoggingLevel:LOG_LEVEL_ERROR]; }
-    else if([logLevel isEqualToString:@"Warn"]) { [PXLoggingUtils setGlobalLoggingLevel:LOG_LEVEL_WARN]; }
-    else if([logLevel isEqualToString:@"Info"]) { [PXLoggingUtils setGlobalLoggingLevel:LOG_LEVEL_INFO]; }
 }
 
 @end

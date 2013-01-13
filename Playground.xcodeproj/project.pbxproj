@@ -242,6 +242,7 @@
 		9CD23F331645831C00C3D17B /* TableViewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD23F311645831C00C3D17B /* TableViewsController.m */; };
 		9CD23F8816458F6A00C3D17B /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD23F8616458F6A00C3D17B /* box.png */; };
 		9CD23F8916458F6A00C3D17B /* box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD23F8716458F6A00C3D17B /* box@2x.png */; };
+		9CDE99FB16A34ECE0011C5EF /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDE99FA16A34ECE0011C5EF /* PXEngine.framework */; };
 		9CE8BEBB167934E200CA7E5F /* ActionSheetPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CE8BEBA167934E200CA7E5F /* ActionSheetPreview.xib */; };
 		9CE8BEC11679354E00CA7E5F /* ActionSheetPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE8BEC01679354E00CA7E5F /* ActionSheetPreviewController.m */; };
 		9CE8BEC4167935D100CA7E5F /* ActionSheetPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE8BEC3167935D100CA7E5F /* ActionSheetPreview.m */; };
@@ -580,6 +581,8 @@
 		9CD23F311645831C00C3D17B /* TableViewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewsController.m; sourceTree = "<group>"; };
 		9CD23F8616458F6A00C3D17B /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
 		9CD23F8716458F6A00C3D17B /* box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box@2x.png"; sourceTree = "<group>"; };
+		9CDE99FA16A34ECE0011C5EF /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PXEngine.framework; sourceTree = "<group>"; };
+		9CDE99FD16A34F7A0011C5EF /* License.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = License.h; sourceTree = "<group>"; };
 		9CE8BEBA167934E200CA7E5F /* ActionSheetPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionSheetPreview.xib; sourceTree = "<group>"; };
 		9CE8BEBF1679354E00CA7E5F /* ActionSheetPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPreviewController.h; sourceTree = "<group>"; };
 		9CE8BEC01679354E00CA7E5F /* ActionSheetPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPreviewController.m; sourceTree = "<group>"; };
@@ -630,6 +633,7 @@
 				9C636DBA16374F58009A1878 /* UIKit.framework in Frameworks */,
 				9C636DBC16374F58009A1878 /* Foundation.framework in Frameworks */,
 				9C636DBE16374F58009A1878 /* CoreGraphics.framework in Frameworks */,
+				9CDE99FB16A34ECE0011C5EF /* PXEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -919,6 +923,7 @@
 		9C636DB816374F58009A1878 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9CDE99FA16A34ECE0011C5EF /* PXEngine.framework */,
 				9CBAD5DF1673EF3F0029F394 /* StoreKit.framework */,
 				9C636DBD16374F58009A1878 /* CoreGraphics.framework */,
 				9C636DBB16374F58009A1878 /* Foundation.framework */,
@@ -933,6 +938,7 @@
 		9C636DBF16374F58009A1878 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				9CDE99FD16A34F7A0011C5EF /* License.h */,
 				9C636DC816374F58009A1878 /* PXAppDelegate.h */,
 				9C636DC916374F58009A1878 /* PXAppDelegate.m */,
 				9C636DD116374F58009A1878 /* PXViewController.h */,
@@ -1701,7 +1707,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1728,7 +1737,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = PX_LOGGING;

@@ -11,11 +11,7 @@
 #import <PXEngine/PXEngine.h>
 #import "iConsole.h"
 #import "iNotify.h"
-
-/**
- ** SET THESE TO YOUR LICENSE INFORMATION
- **/
-#import "../../Shared Headers/LicenseInfo.h"
+#import "License.h"
 
 @implementation PXAppDelegate
 

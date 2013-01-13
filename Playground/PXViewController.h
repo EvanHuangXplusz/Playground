@@ -10,7 +10,6 @@
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
-#import <PXEngine/PXLoggingUtils.h>
 #import "PXPreviewThemePickerViewController.h"
 #import "iCarousel.h"
 #import "iConsole.h"
@@ -19,8 +18,8 @@
                                                 PXPreviewThemePickerDelegate,
                                                 MFMailComposeViewControllerDelegate,
                                                 UIPopoverControllerDelegate,
-                                                iConsoleDelegate,
-                                                PXLoggingDelegate>
+                                                iConsoleDelegate
+                                                >
 
 @property (weak, nonatomic) IBOutlet UIView *previewView;
 @property (weak, nonatomic) IBOutlet UIView *editorView;

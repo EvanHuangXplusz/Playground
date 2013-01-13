@@ -16,3 +16,7 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+
+# Don't include the PXEngine binary
+/PXEngine.framework
+/PXEngine.framework/*
