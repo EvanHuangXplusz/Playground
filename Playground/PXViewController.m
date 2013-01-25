@@ -13,6 +13,7 @@
 #import "ReflectionView.h"
 #import "DejalActivityView.h"
 #import "IASKAppSettingsViewController.h"
+#import "NSObject+Blocks.h"
 
 #define PREVIEW_WIDTH  500
 #define PREVIEW_HEIGHT 335
@@ -20,6 +21,7 @@
 @implementation PXViewController
 {
     id currentlyDisplayedPreview_;
+    id currentUpdatingBlock_;
     NSString *currentRootNameView_;
     NSString *currentFullNameView_;
     NSDictionary *previews_;
@@ -123,7 +125,7 @@
     [self previewThemePickerItemSelected:@"PixelPerfect"];
     
     // Apply light theme mode prefs
-    [self applyCurrentLightMode:[[PXViewController retrieveFromUserDefaults:@"playground_lightmode"] boolValue]];
+    // [self applyCurrentLightMode:[[PXViewController retrieveFromUserDefaults:@"playground_lightmode"] boolValue]];
 }
 
 -(void)viewDidAppear:(BOOL)animated
@@ -142,7 +144,7 @@
 -(void)showDefaultPreview
 {
     [self.carousel reloadData];
-    [self.carousel scrollToItemAtIndex:[previewSorted_ indexOfObject:@"Button"] animated:NO];
+    [self.carousel scrollToItemAtIndex:[previewSorted_ indexOfObject:@"ImageView"] animated:NO];
     [self displayCurrentPreview:self.carousel];
 }
 
@@ -188,13 +190,6 @@
     [self saveImage:name withImage:screenShot];
 
     [self buildImageForIndex:@(i+1)];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    
-    // Dispose of any resources that can be recreated.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -267,12 +262,13 @@
 {
     [_textView resignFirstResponder];
     
-    [UIView transitionWithView:self.view
-                      duration:.3
+    [self applyStyle:css];
+
+    [UIView transitionWithView:self.previewView
+                      duration:.5
                        options:UIViewAnimationOptionTransitionCrossDissolve
                     animations:^{
                         _textView.text = css;
-                        [self applyStyle:css];
                     }
                     completion:^(BOOL finished) {
                         // Scroll to top
@@ -300,7 +296,7 @@
         _errorView.text = @"";
         
         // apply the new stylesheet
-        [PXStylesheet applyStylesheets];
+        [self.previewView updateStyles];
     }
 }
 
@@ -406,8 +402,6 @@
 
 - (IBAction)prefsSelectAction:(UIButton *)sender
 {
-//    [self applyStyle];
-    
     IASKAppSettingsViewController *appSettings = [[IASKAppSettingsViewController alloc] init];
 
     appSettings.title = NSLocalizedString(@"Settings", @"Settings");
@@ -547,19 +541,18 @@
 
 -(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
-    // For these, we delay by an arbitrary amount of time to give the views time to
-    // load so they can get styled.
-    // We welcome a better implementation of this! Send it to feedback@pixate.com :-)
-    if(currentFullNameView_ && reloadCurrentlyDisplayedPreview_)
-    {
-        [self performSelector:@selector(switchToNamedPreview:)
-                   withObject:currentFullNameView_
-                   afterDelay:0.8];
-    }
+    [NSObject cancelBlock:currentUpdatingBlock_];
 
-    [self performSelector:@selector(applyStyle)
-               withObject:nil
-               afterDelay:0.8];
+    currentUpdatingBlock_ = [self performBlock:^{
+        
+        if(currentFullNameView_ && reloadCurrentlyDisplayedPreview_)
+        {
+            [self switchToNamedPreview:currentFullNameView_];
+        }
+        
+        [self applyStyle];
+        
+    } afterDelay:0.7];
 
     return YES;
 }
