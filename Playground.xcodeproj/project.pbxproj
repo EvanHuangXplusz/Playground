@@ -11,6 +11,9 @@
 		0A2309DB16403D5F00FC4EF8 /* bottom-to-top opacity gradient.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0A2309DA16403D5F00FC4EF8 /* bottom-to-top opacity gradient.svg */; };
 		0A2309DF1640407300FC4EF8 /* navBarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2309DE1640407300FC4EF8 /* navBarShadow.png */; };
 		0A2309E11640412500FC4EF8 /* tabBarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2309E01640412500FC4EF8 /* tabBarShadow.png */; };
+		0A9943CB16B43B4900A24DB8 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9943CA16B43B4900A24DB8 /* pin.png */; };
+		0ABD313516B347FD009D24EB /* PXEngine.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */; };
+		0ABD313716B3480E009D24EB /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABD313616B3480E009D24EB /* PXEngine.framework */; };
 		0ADB8175163F1B8C00E61B59 /* TabBarPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB8174163F1B8C00E61B59 /* TabBarPreview.xib */; };
 		0ADB817B163F242900E61B59 /* tab_select_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB817A163F242900E61B59 /* tab_select_indicator.png */; };
 		9C03B818165704DA00590593 /* NavigationBarPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03B817165704DA00590593 /* NavigationBarPreview.m */; };
@@ -220,8 +223,6 @@
 		9C9D856016755B6100013AB4 /* light_views.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C9D855E16755B6100013AB4 /* light_views.css */; };
 		9C9D856116755B6100013AB4 /* light.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C9D855F16755B6100013AB4 /* light.css */; };
 		9C9D8563167562C800013AB4 /* gear.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9C9D8562167562C800013AB4 /* gear.svg */; };
-		9CA4F49516A4E33600126F7B /* PXEngine.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 9CA4F49416A4E33600126F7B /* PXEngine.xcodeproj */; };
-		9CA4F49716A4E33E00126F7B /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA4F49616A4E33E00126F7B /* PXEngine.framework */; };
 		9CA6B1B6164C75A1006C984C /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AF81A16385BAE002C428D /* Default-Portrait~ipad.png */; };
 		9CA6B1B7164C75A4006C984C /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AF81C16385BB2002C428D /* Default-Portrait@2x~ipad.png */; };
 		9CA6B1B8164C75A7006C984C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AF81E16385BB5002C428D /* Default-Landscape~ipad.png */; };
@@ -251,16 +252,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9CA4F52C16A4E8A400126F7B /* PBXContainerItemProxy */ = {
+		0A99437316B42BA400A24DB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9CA4F49416A4E33600126F7B /* PXEngine.xcodeproj */;
+			containerPortal = 0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 0A9DA3C415E2D4CA00A600CA;
 			remoteInfo = PXEngine;
 		};
-		9CA4F52E16A4E8A400126F7B /* PBXContainerItemProxy */ = {
+		0A99437516B42BA400A24DB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9CA4F49416A4E33600126F7B /* PXEngine.xcodeproj */;
+			containerPortal = 0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 0A53F7EE15E3F8E60050C048;
 			remoteInfo = PXEngineTests;
@@ -272,6 +273,9 @@
 		0A2309DA16403D5F00FC4EF8 /* bottom-to-top opacity gradient.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "bottom-to-top opacity gradient.svg"; sourceTree = "<group>"; };
 		0A2309DE1640407300FC4EF8 /* navBarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarShadow.png; sourceTree = "<group>"; };
 		0A2309E01640412500FC4EF8 /* tabBarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarShadow.png; sourceTree = "<group>"; };
+		0A9943CA16B43B4900A24DB8 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PXEngine.xcodeproj; path = "../pixate-ios-framework/Frameworks/PXEngine/PXEngine.xcodeproj"; sourceTree = "<group>"; };
+		0ABD313616B3480E009D24EB /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = "../../../../Library/Developer/Xcode/DerivedData/pixate-ezqddzvchmdpzafkjoeukvuqdqzq/Build/Products/Debug-iphoneos/PXEngine.framework"; sourceTree = "<group>"; };
 		0ADB8174163F1B8C00E61B59 /* TabBarPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarPreview.xib; sourceTree = "<group>"; };
 		0ADB8178163F1C3B00E61B59 /* TabBarPreview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = TabBarPreview.css; path = Themes/Medley/TabBarPreview.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		0ADB817A163F242900E61B59 /* tab_select_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_select_indicator.png; sourceTree = "<group>"; };
@@ -571,8 +575,6 @@
 		9C9D855E16755B6100013AB4 /* light_views.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = light_views.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		9C9D855F16755B6100013AB4 /* light.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = light.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		9C9D8562167562C800013AB4 /* gear.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gear.svg; sourceTree = "<group>"; };
-		9CA4F49416A4E33600126F7B /* PXEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PXEngine.xcodeproj; path = ../ios/Frameworks/PXEngine/PXEngine.xcodeproj; sourceTree = "<group>"; };
-		9CA4F49616A4E33E00126F7B /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = "../../../../Library/Developer/Xcode/DerivedData/pixate-aoqzzvunjsvbizeulcsiekkrspie/Build/Products/Debug-iphoneos/PXEngine.framework"; sourceTree = "<group>"; };
 		9CBAD5DA1673EE210029F394 /* iVersion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iVersion.bundle; sourceTree = "<group>"; };
 		9CBAD5DB1673EE210029F394 /* iVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iVersion.h; sourceTree = "<group>"; };
 		9CBAD5DC1673EE210029F394 /* iVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iVersion.m; sourceTree = "<group>"; };
@@ -644,7 +646,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA4F49716A4E33E00126F7B /* PXEngine.framework in Frameworks */,
+				0ABD313716B3480E009D24EB /* PXEngine.framework in Frameworks */,
 				9CBAD5E01673EF3F0029F394 /* StoreKit.framework in Frameworks */,
 				9CBF98FA166AAD2700673919 /* MapKit.framework in Frameworks */,
 				9C41E0A21666FE5200E93D3A /* QuartzCore.framework in Frameworks */,
@@ -658,6 +660,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A99436F16B42BA400A24DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A99437416B42BA400A24DB8 /* PXEngine.framework */,
+				0A99437616B42BA400A24DB8 /* PXEngineTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9C1287401668264F005A0086 /* MapViewPreview */ = {
 			isa = PBXGroup;
 			children = (
@@ -940,8 +951,8 @@
 		9C636DB816374F58009A1878 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CA4F49616A4E33E00126F7B /* PXEngine.framework */,
-				9CA4F49416A4E33600126F7B /* PXEngine.xcodeproj */,
+				0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */,
+				0ABD313616B3480E009D24EB /* PXEngine.framework */,
 				9CBAD5DF1673EF3F0029F394 /* StoreKit.framework */,
 				9C636DBD16374F58009A1878 /* CoreGraphics.framework */,
 				9C636DBB16374F58009A1878 /* Foundation.framework */,
@@ -1010,6 +1021,7 @@
 		9C636DE216375024009A1878 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0A9943CA16B43B4900A24DB8 /* pin.png */,
 				9C491261166866C50040FF53 /* pin@2x.png */,
 				9CD23F8616458F6A00C3D17B /* box.png */,
 				9CD23F8716458F6A00C3D17B /* box@2x.png */,
@@ -1210,15 +1222,6 @@
 			name = Previews;
 			sourceTree = "<group>";
 		};
-		9CA4F52616A4E8A400126F7B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9CA4F52D16A4E8A400126F7B /* PXEngine.framework */,
-				9CA4F52F16A4E8A400126F7B /* PXEngineTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		9CBAD5D91673EE210029F394 /* iVersion */ = {
 			isa = PBXGroup;
 			children = (
@@ -1400,8 +1403,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9CA4F52616A4E8A400126F7B /* Products */;
-					ProjectRef = 9CA4F49416A4E33600126F7B /* PXEngine.xcodeproj */;
+					ProductGroup = 0A99436F16B42BA400A24DB8 /* Products */;
+					ProjectRef = 0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1412,18 +1415,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9CA4F52D16A4E8A400126F7B /* PXEngine.framework */ = {
+		0A99437416B42BA400A24DB8 /* PXEngine.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework.static;
 			path = PXEngine.framework;
-			remoteRef = 9CA4F52C16A4E8A400126F7B /* PBXContainerItemProxy */;
+			remoteRef = 0A99437316B42BA400A24DB8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9CA4F52F16A4E8A400126F7B /* PXEngineTests.octest */ = {
+		0A99437616B42BA400A24DB8 /* PXEngineTests.octest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = PXEngineTests.octest;
-			remoteRef = 9CA4F52E16A4E8A400126F7B /* PBXContainerItemProxy */;
+			remoteRef = 0A99437516B42BA400A24DB8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1618,7 +1621,8 @@
 				9C12E41F16800AD8008AF764 /* Preview_PixelPerfect_VectorGraphics@2x.png in Resources */,
 				9C680064168D4C5F00B4491C /* toucan.svg in Resources */,
 				9C680066168D4D8100B4491C /* lion.svg in Resources */,
-				9CA4F49516A4E33600126F7B /* PXEngine.xcodeproj in Resources */,
+				0ABD313516B347FD009D24EB /* PXEngine.xcodeproj in Resources */,
+				0A9943CB16B43B4900A24DB8 /* pin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1766,11 +1770,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/pixate-aoqzzvunjsvbizeulcsiekkrspie/Build/Products/Debug-iphoneos\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1797,11 +1797,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/pixate-aoqzzvunjsvbizeulcsiekkrspie/Build/Products/Debug-iphoneos\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = PX_LOGGING;
