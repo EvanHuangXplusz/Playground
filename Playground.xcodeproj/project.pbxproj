@@ -12,8 +12,6 @@
 		0A2309DF1640407300FC4EF8 /* navBarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2309DE1640407300FC4EF8 /* navBarShadow.png */; };
 		0A2309E11640412500FC4EF8 /* tabBarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2309E01640412500FC4EF8 /* tabBarShadow.png */; };
 		0A9943CB16B43B4900A24DB8 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9943CA16B43B4900A24DB8 /* pin.png */; };
-		0ABD313516B347FD009D24EB /* PXEngine.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */; };
-		0ABD313716B3480E009D24EB /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABD313616B3480E009D24EB /* PXEngine.framework */; };
 		0ADB8175163F1B8C00E61B59 /* TabBarPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB8174163F1B8C00E61B59 /* TabBarPreview.xib */; };
 		0ADB817B163F242900E61B59 /* tab_select_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB817A163F242900E61B59 /* tab_select_indicator.png */; };
 		9C03B818165704DA00590593 /* NavigationBarPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03B817165704DA00590593 /* NavigationBarPreview.m */; };
@@ -169,6 +167,8 @@
 		9C41E0AA166705B100E93D3A /* CollectionViewLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41E0A91667056000E93D3A /* CollectionViewLineLayout.m */; };
 		9C491263166866C50040FF53 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C491261166866C50040FF53 /* pin@2x.png */; };
 		9C511F4B165466FA00D85ED4 /* ProgressViewPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C511F4A165466FA00D85ED4 /* ProgressViewPreview.m */; };
+		9C5ED01516B9ECF900C40E49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5ED01316B9ECE300C40E49 /* MapKit.framework */; };
+		9C5ED01716B9ED0200C40E49 /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5ED01616B9ED0200C40E49 /* PXEngine.framework */; };
 		9C636DBA16374F58009A1878 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C636DB916374F58009A1878 /* UIKit.framework */; };
 		9C636DBC16374F58009A1878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C636DBB16374F58009A1878 /* Foundation.framework */; };
 		9C636DBE16374F58009A1878 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C636DBD16374F58009A1878 /* CoreGraphics.framework */; };
@@ -234,7 +234,6 @@
 		9CBAD5F11673FC3A0029F394 /* iNotify.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CBAD5EE1673FC3A0029F394 /* iNotify.bundle */; };
 		9CBAD5F21673FC3A0029F394 /* iNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBAD5F01673FC3A0029F394 /* iNotify.m */; };
 		9CBC04FA16B33E2A00CA44EC /* NSObject+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC04F916B33E2A00CA44EC /* NSObject+Blocks.m */; };
-		9CBF98FA166AAD2700673919 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC37FDD16684FC6007D2811 /* MapKit.framework */; };
 		9CBF9901166AB2C800673919 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF9900166AB2C800673919 /* iCarousel.m */; };
 		9CBF990F166ABD2F00673919 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF990E166ABD2F00673919 /* ReflectionView.m */; };
 		9CBF9919166AD63100673919 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF9918166AD63100673919 /* DejalActivityView.m */; };
@@ -251,31 +250,12 @@
 		D00B5A63167EC1A40052546F /* PixelPerfectTheme.css in Resources */ = {isa = PBXBuildFile; fileRef = D00B5A4A167EC1A40052546F /* PixelPerfectTheme.css */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0A99437316B42BA400A24DB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0A9DA3C415E2D4CA00A600CA;
-			remoteInfo = PXEngine;
-		};
-		0A99437516B42BA400A24DB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0A53F7EE15E3F8E60050C048;
-			remoteInfo = PXEngineTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0A1D8446166A704800506FB9 /* default_views.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default_views.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		0A2309DA16403D5F00FC4EF8 /* bottom-to-top opacity gradient.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "bottom-to-top opacity gradient.svg"; sourceTree = "<group>"; };
 		0A2309DE1640407300FC4EF8 /* navBarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navBarShadow.png; sourceTree = "<group>"; };
 		0A2309E01640412500FC4EF8 /* tabBarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarShadow.png; sourceTree = "<group>"; };
 		0A9943CA16B43B4900A24DB8 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
-		0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PXEngine.xcodeproj; path = "../pixate-ios-framework/Frameworks/PXEngine/PXEngine.xcodeproj"; sourceTree = "<group>"; };
-		0ABD313616B3480E009D24EB /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = "../../../../Library/Developer/Xcode/DerivedData/pixate-ezqddzvchmdpzafkjoeukvuqdqzq/Build/Products/Debug-iphoneos/PXEngine.framework"; sourceTree = "<group>"; };
 		0ADB8174163F1B8C00E61B59 /* TabBarPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarPreview.xib; sourceTree = "<group>"; };
 		0ADB8178163F1C3B00E61B59 /* TabBarPreview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = TabBarPreview.css; path = Themes/Medley/TabBarPreview.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		0ADB817A163F242900E61B59 /* tab_select_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_select_indicator.png; sourceTree = "<group>"; };
@@ -481,6 +461,8 @@
 		9C511F49165466FA00D85ED4 /* ProgressViewPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewPreview.h; sourceTree = "<group>"; };
 		9C511F4A165466FA00D85ED4 /* ProgressViewPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewPreview.m; sourceTree = "<group>"; };
 		9C511F4C16546C9600D85ED4 /* ProgressViewPreview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = ProgressViewPreview.css; path = Themes/Medley/ProgressViewPreview.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
+		9C5ED01316B9ECE300C40E49 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9C5ED01616B9ED0200C40E49 /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = ../../../../../../Volumes/Pixate_1.0.2/Pixate/Frameworks/PXEngine.framework; sourceTree = "<group>"; };
 		9C636DB516374F58009A1878 /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C636DB916374F58009A1878 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C636DBB16374F58009A1878 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -592,7 +574,6 @@
 		9CBF990E166ABD2F00673919 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
 		9CBF9917166AD63100673919 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		9CBF9918166AD63100673919 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
-		9CC37FDD16684FC6007D2811 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = "<absolute>"; };
 		9CCC26E6163995820077FAE0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../Default.png; sourceTree = "<group>"; };
 		9CCC26E81639958C0077FAE0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../Default@2x.png"; sourceTree = "<group>"; };
 		9CCC26EA1639959A0077FAE0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../../Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -646,29 +627,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ABD313716B3480E009D24EB /* PXEngine.framework in Frameworks */,
+				9C5ED01516B9ECF900C40E49 /* MapKit.framework in Frameworks */,
 				9CBAD5E01673EF3F0029F394 /* StoreKit.framework in Frameworks */,
-				9CBF98FA166AAD2700673919 /* MapKit.framework in Frameworks */,
 				9C41E0A21666FE5200E93D3A /* QuartzCore.framework in Frameworks */,
 				9C8715E0164B242B005ACFCF /* MessageUI.framework in Frameworks */,
 				9C636DBA16374F58009A1878 /* UIKit.framework in Frameworks */,
 				9C636DBC16374F58009A1878 /* Foundation.framework in Frameworks */,
 				9C636DBE16374F58009A1878 /* CoreGraphics.framework in Frameworks */,
+				9C5ED01716B9ED0200C40E49 /* PXEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A99436F16B42BA400A24DB8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0A99437416B42BA400A24DB8 /* PXEngine.framework */,
-				0A99437616B42BA400A24DB8 /* PXEngineTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		9C1287401668264F005A0086 /* MapViewPreview */ = {
 			isa = PBXGroup;
 			children = (
@@ -951,12 +923,11 @@
 		9C636DB816374F58009A1878 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */,
-				0ABD313616B3480E009D24EB /* PXEngine.framework */,
+				9C5ED01616B9ED0200C40E49 /* PXEngine.framework */,
+				9C5ED01316B9ECE300C40E49 /* MapKit.framework */,
 				9CBAD5DF1673EF3F0029F394 /* StoreKit.framework */,
 				9C636DBD16374F58009A1878 /* CoreGraphics.framework */,
 				9C636DBB16374F58009A1878 /* Foundation.framework */,
-				9CC37FDD16684FC6007D2811 /* MapKit.framework */,
 				9C8715DF164B242B005ACFCF /* MessageUI.framework */,
 				9C41E0A11666FE5200E93D3A /* QuartzCore.framework */,
 				9C636DB916374F58009A1878 /* UIKit.framework */,
@@ -1401,35 +1372,12 @@
 			mainGroup = 9C636DAA16374F58009A1878;
 			productRefGroup = 9C636DB616374F58009A1878 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0A99436F16B42BA400A24DB8 /* Products */;
-					ProjectRef = 0ABD313416B347FD009D24EB /* PXEngine.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				9C636DB416374F58009A1878 /* Playground */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		0A99437416B42BA400A24DB8 /* PXEngine.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework.static;
-			path = PXEngine.framework;
-			remoteRef = 0A99437316B42BA400A24DB8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0A99437616B42BA400A24DB8 /* PXEngineTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PXEngineTests.octest;
-			remoteRef = 0A99437516B42BA400A24DB8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9C636DB316374F58009A1878 /* Resources */ = {
@@ -1621,7 +1569,6 @@
 				9C12E41F16800AD8008AF764 /* Preview_PixelPerfect_VectorGraphics@2x.png in Resources */,
 				9C680064168D4C5F00B4491C /* toucan.svg in Resources */,
 				9C680066168D4D8100B4491C /* lion.svg in Resources */,
-				0ABD313516B347FD009D24EB /* PXEngine.xcodeproj in Resources */,
 				0A9943CB16B43B4900A24DB8 /* pin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1770,7 +1717,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/Pixate_1.0.2/Pixate/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1797,7 +1747,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/Pixate_1.0.2/Pixate/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = PX_LOGGING;
