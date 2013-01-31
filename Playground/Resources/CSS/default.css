@@ -1,5 +1,11 @@
 @import "default_views.css";
 
+pixate-config {
+    update-styles: auto;
+    cache-styles: auto;
+    parse-error-destination: console;
+}
+
 .appButton {
     color            : rgb(134,135,136);
     background-color : #303132;
