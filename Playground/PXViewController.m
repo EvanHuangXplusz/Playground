@@ -283,8 +283,8 @@
 
 - (void)applyStyle:(NSString *)css
 {
-    PXStylesheet *sheet = [PXStylesheet styleSheetFromSource:css
-                                                  withOrigin:kStylesheetOriginUser];
+    PXStylesheet *sheet = [PXEngine styleSheetFromSource:css
+                                                  withOrigin:PXStylesheetOriginUser];
     
     // show or clear any errors
     if (sheet.errors && sheet.errors.count)
@@ -306,16 +306,16 @@
 {
     if(lightMode)
     {
-        [PXStylesheet styleSheetFromFilePath:[[NSBundle mainBundle] pathForResource:@"light" ofType:@"css"]
-                                   withOrigin:kStylesheetOriginApplication];
+        [PXEngine styleSheetFromFilePath:[[NSBundle mainBundle] pathForResource:@"light" ofType:@"css"]
+                                   withOrigin:PXStylesheetOriginApplication];
     }
     else
     {
-        [PXStylesheet styleSheetFromFilePath:[[NSBundle mainBundle] pathForResource:@"default" ofType:@"css"]
-                                   withOrigin:kStylesheetOriginApplication];
+        [PXEngine styleSheetFromFilePath:[[NSBundle mainBundle] pathForResource:@"default" ofType:@"css"]
+                                   withOrigin:PXStylesheetOriginApplication];
     }
 
-    [PXStylesheet applyStylesheets];
+    [PXEngine applyStylesheets];
 }
 
 #pragma mark - Send email button action handler

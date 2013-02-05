@@ -95,7 +95,7 @@
 #import "CollectionViewController.h"
 #import "CollectionViewCell.h"
 #import <PXEngine/UIView+PXStyling.h>
-#import <PXEngine/PXStylesheet.h>
+#import <PXEngine/PXEngine.h>
 
 @implementation CollectionViewController
 
@@ -145,7 +145,7 @@
             } completion:nil];
         }
         
-        [PXStylesheet applyStylesheets];
+        [PXEngine applyStylesheets];
     }
 }
 
