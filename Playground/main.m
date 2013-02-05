@@ -11,15 +11,13 @@
 #import "PXAppDelegate.h"
 #import <PXEngine/PXEngine.h>
 
-//#import "License.h"
-#import "../../Shared Headers/LicenseInfo.h"
+#import "License.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool
     {
         [PXEngine licenseKey:@LICENSE_SERIAL forUser:@LICENSE_EMAIL];
-        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([PXAppDelegate class]));
     }
 }
