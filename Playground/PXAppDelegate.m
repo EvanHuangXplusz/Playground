@@ -11,7 +11,6 @@
 #import <PXEngine/PXEngine.h>
 #import "iConsole.h"
 #import "iNotify.h"
-#import "License.h"
 
 @implementation PXAppDelegate
 
@@ -40,14 +39,6 @@
                          [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]];
     [[NSUserDefaults standardUserDefaults] setValue:version forKey:@"playground_version"];
 
-    // Set licensing information for Pixate Engine
-    [PXEngine licenseKey:@LICENSE_SERIAL forUser:@LICENSE_EMAIL];
-
-    // Log the engine's build date
-    NSLog(@"Pixate Engine v%@ build: %@",
-          [PXEngine sharedInstance].version,
-          [[PXEngine sharedInstance].buildDate description]);
-    
     [self.window makeKeyAndVisible];
 
     return YES;
