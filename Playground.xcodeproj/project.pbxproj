@@ -583,7 +583,6 @@
 		9CD23F311645831C00C3D17B /* TableViewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewsController.m; sourceTree = "<group>"; };
 		9CD23F8616458F6A00C3D17B /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
 		9CD23F8716458F6A00C3D17B /* box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box@2x.png"; sourceTree = "<group>"; };
-		9CDE99FD16A34F7A0011C5EF /* License.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = License.h; sourceTree = "<group>"; };
 		9CE8BEBA167934E200CA7E5F /* ActionSheetPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionSheetPreview.xib; sourceTree = "<group>"; };
 		9CE8BEBF1679354E00CA7E5F /* ActionSheetPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetPreviewController.h; sourceTree = "<group>"; };
 		9CE8BEC01679354E00CA7E5F /* ActionSheetPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPreviewController.m; sourceTree = "<group>"; };
@@ -938,7 +937,6 @@
 		9C636DBF16374F58009A1878 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				9CDE99FD16A34F7A0011C5EF /* License.h */,
 				9C636DC816374F58009A1878 /* PXAppDelegate.h */,
 				9C636DC916374F58009A1878 /* PXAppDelegate.m */,
 				9C636DD116374F58009A1878 /* PXViewController.h */,
