@@ -259,7 +259,7 @@
 		0ADB8174163F1B8C00E61B59 /* TabBarPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarPreview.xib; sourceTree = "<group>"; };
 		0ADB8178163F1C3B00E61B59 /* TabBarPreview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = TabBarPreview.css; path = Themes/Medley/TabBarPreview.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		0ADB817A163F242900E61B59 /* tab_select_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_select_indicator.png; sourceTree = "<group>"; };
-		0AE48C5B16BB153F002EE07F /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = "../../../../Library/Developer/Xcode/DerivedData/pixate-ezqddzvchmdpzafkjoeukvuqdqzq/Build/Products/Debug-iphoneos/PXEngine.framework"; sourceTree = "<group>"; };
+		0AE48C5B16BB153F002EE07F /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = "../../../../Library/Developer/Xcode/DerivedData/pixate-ezqddzvchmdpzafkjoeukvuqdqzq/Build/Products/Debug-iphoneos/PXEngine.framework"; sourceTree = SOURCE_ROOT; };
 		9C03B816165704DA00590593 /* NavigationBarPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarPreview.h; sourceTree = "<group>"; };
 		9C03B817165704DA00590593 /* NavigationBarPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarPreview.m; sourceTree = "<group>"; };
 		9C03B81D165705DA00590593 /* NavigationBarExamples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarExamples.h; sourceTree = "<group>"; };
@@ -1715,7 +1715,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1742,7 +1745,10 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = PX_LOGGING;
