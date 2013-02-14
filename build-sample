@@ -22,7 +22,7 @@ rm -rf "${PROJECT_WORKSPACE}"
 mkdir -p "${PROJECT_WORKSPACE}"
 
 # copy the project
-cp -fr "${PROJECT_DIRECTORY}" "${SAMPLES_WORKSPACE}"
+cp -fR "${PROJECT_DIRECTORY}/" "${PROJECT_WORKSPACE}"
 
 # remove unneeded project-related files
 rm -rf "${PROJECT_BUNDLE}/xcshareddata"
