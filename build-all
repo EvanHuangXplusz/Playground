@@ -13,4 +13,5 @@ fi
 BUILD_WORKSPACE="$1"
 
 # build samples
-./build-sample "${BUILD_WORKSPACE}" "../Playground"
+./build-sample "${BUILD_WORKSPACE}" "$PWD"
+
