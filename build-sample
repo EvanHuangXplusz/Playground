@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# stop if we encounter an error
+set -e
+
+# check args
+if [ $# -ne 2 ]; then
+    echo "usage: $0 <build-workspace> <project-directory>"
+    exit 1
+fi
+
+# setup variables
+BUILD_WORKSPACE="$1"
+PROJECT_DIRECTORY="$2"
+PROJECT_NAME=$(basename "$2")
+SAMPLES_WORKSPACE="${BUILD_WORKSPACE}/Samples"
+PROJECT_WORKSPACE="${SAMPLES_WORKSPACE}/${PROJECT_NAME}"
+PROJECT_BUNDLE="${PROJECT_WORKSPACE}/${PROJECT_NAME}.xcodeproj"
+
+# setup output directory
+rm -rf "${PROJECT_WORKSPACE}"
+mkdir -p "${PROJECT_WORKSPACE}"
+
+# copy the project
+cp -fr "${PROJECT_DIRECTORY}" "${SAMPLES_WORKSPACE}"
+
+# remove unneeded project-related files
+rm -rf "${PROJECT_BUNDLE}/xcshareddata"
+rm -rf "${PROJECT_BUNDLE}/xcuserdata"
+rm -rf "${PROJECT_BUNDLE}/project.xcworkspace"
+
+# re-map location of PXEngine
+perl -p -i -e 's|path = "[^"]+/PXEngine.framework"|path = ../../Framework/PXEngine.framework|g' "${PROJECT_BUNDLE}/project.pbxproj"

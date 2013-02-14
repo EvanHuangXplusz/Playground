@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# stop if we encounter an error
+set -e
+
+# check args
+if [ $# -ne 1 ]; then
+    echo "usage: $0 <build-workspace>"
+    exit 1
+fi
+
+# setup variables
+BUILD_WORKSPACE="$1"
+
+# build samples
+./build-sample "${BUILD_WORKSPACE}" "../Playground"
