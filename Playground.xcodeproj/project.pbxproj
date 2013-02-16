@@ -1721,10 +1721,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					PX_LOGGING,
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "Playground/Playground-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = NO;
@@ -1751,7 +1748,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = PX_LOGGING;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Playground/Playground-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = NO;
