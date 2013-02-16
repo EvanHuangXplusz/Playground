@@ -15,3 +15,10 @@ BUILD_WORKSPACE="$1"
 # build samples
 ./build-sample "${BUILD_WORKSPACE}" "$PWD"
 
+# remove build files
+PROJECT_NAME=Playground
+SAMPLES_WORKSPACE="${BUILD_WORKSPACE}/Samples"
+PROJECT_WORKSPACE="${SAMPLES_WORKSPACE}/${PROJECT_NAME}"
+
+rm -f "${PROJECT_WORKSPACE}/build-all"
+rm -f "${PROJECT_WORKSPACE}/build-sample"
