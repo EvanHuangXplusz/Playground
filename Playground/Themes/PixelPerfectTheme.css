@@ -782,7 +782,7 @@
 }
 
 #textfield4 {
-  font-align  : right;
+  text-align  : right;
 }
 
 /* Alter preview pane appearance */
@@ -812,7 +812,7 @@
 }
 
 #textview4 {
-  font-align       : right;
+  text-align       : right;
 }
 
 #textview5 {

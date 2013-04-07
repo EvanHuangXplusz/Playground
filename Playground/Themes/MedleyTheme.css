@@ -841,7 +841,7 @@
 }
 
 #textfield4 {
-  font-align  : right;
+  text-align  : right;
 }
 
 /** End of TextFieldPreview **/
@@ -865,7 +865,7 @@
 }
 
 #textview4 {
-  font-align       : right;
+  text-align       : right;
 }
 
 #textview5 {
