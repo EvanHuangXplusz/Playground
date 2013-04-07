@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 {
     @autoreleasepool
     {
-        //[PXEngine licenseKey:@"LICENSE_SERIAL" forUser:@"LICENSE_EMAIL"];
+        [PXEngine licenseKey:@"LICENSE_SERIAL" forUser:@"LICENSE_EMAIL"];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([PXAppDelegate class]));
     }
 }

@@ -37,6 +37,8 @@ static int count_;
     
     self.title = [NSString stringWithFormat:@"Navigation Bar %d", self.index];
     
+    return;
+    
     if(self.index > 1 && self.index < 5)
     {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];

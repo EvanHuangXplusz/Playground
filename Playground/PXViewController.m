@@ -20,7 +20,6 @@
 
 @implementation PXViewController
 {
-    id currentlyDisplayedPreview_;
     id currentUpdatingBlock_;
     NSString *currentRootNameView_;
     NSString *currentFullNameView_;
@@ -58,6 +57,7 @@
          */
         previews_ = @{
             // Preview file(s)name : Preview Display Name
+            //@"ActionSheet"              : @"Action Sheet",
             @"ActivityIndicatorView"    : @"Activity Indicator",
             @"Button"                   : @"Button",
             @"ImageView"                : @"Image View",
@@ -78,6 +78,7 @@
             @"Toolbar"                  : @"Tool Bars",
             @"VectorGraphics"           : @"Scalable Vector Graphics",
             @"View"                     : @"Generic View",
+            //@"WebView"                  : @"Web View",
         };
         
         // Add specific 6.0+ previews here...
@@ -247,13 +248,15 @@
                                               encoding:NSUTF8StringEncoding error:NULL];
 
     [self applyCurrentLightMode:[self isLightModeForTheme:currentTheme_]];
-
     [self switchToPreviewCSS];
-    
     [self.carousel reloadData];
-    
-    [self.themeSelect setTitle:[self displayNameForTheme:themeName]
-                      forState:UIControlStateNormal];
+
+    [self performBlock:^{
+        [self.themeSelect setTitle:[self displayNameForTheme:themeName]
+                          forState:UIControlStateNormal];
+        [self.themeSelect setTitle:[self displayNameForTheme:themeName]
+                          forState:UIControlStateHighlighted];
+    } afterDelay:0.1];
 }
 
 #pragma mark - Apply CSS to view
@@ -264,15 +267,17 @@
     
     [self applyStyle:css];
 
+    __weak UITextView *weakview = _textView;
+    
     [UIView transitionWithView:self.previewView
                       duration:.5
                        options:UIViewAnimationOptionTransitionCrossDissolve
                     animations:^{
-                        _textView.text = css;
+                        weakview.text = css;
                     }
                     completion:^(BOOL finished) {
                         // Scroll to top
-                        [_textView scrollRangeToVisible:NSMakeRange(0, 0)];
+                        [weakview scrollRangeToVisible:NSMakeRange(0, 0)];
                     }];
 }
 
@@ -486,19 +491,24 @@
 
 - (void)switchToNamedPreview:(NSString *)previewName
 {
-    // Get children, if any
-    NSArray *children = [_previewView subviews];
-    
-    // Remove the top child
-    if([children count])
+    // Clear preview
+    [[_previewView subviews] enumerateObjectsUsingBlock:^(UIView *obj, NSUInteger idx, BOOL *stop) {
+        [obj removeFromSuperview];
+    }];
+
+    // Controller cache
+    static id<PXPreviewCustomClassProtocol> controllerCache;
+
+    // Clear out old preview
+    if([controllerCache respondsToSelector:@selector(setPreviewView:)])
     {
-        [[children objectAtIndex:0] removeFromSuperview];
+        controllerCache.previewView = nil;
     }
-    
+
     // Check for a custom controller
     Class customClass = NSClassFromString(previewName);
     
-    if(customClass && [customClass conformsToProtocol:@protocol(PXPreviewCustomClassProtocol)])
+    if([customClass conformsToProtocol:@protocol(PXPreviewCustomClassProtocol)])
     {
         id<PXPreviewCustomClassProtocol> controller = [[customClass alloc] init];
         
@@ -519,10 +529,13 @@
         [_previewView addSubview:controller.previewView];
         
         // Cache the controller so it's retained
-        currentlyDisplayedPreview_ = controller;
+        controllerCache = controller;
     }
     else
     {
+        // Cache the controller so it's retained
+        controllerCache = nil;
+
         // Load our view
         UIView *viewToAdd = [[[NSBundle mainBundle]
                                 loadNibNamed:previewName
@@ -543,14 +556,16 @@
 {
     [NSObject cancelBlock:currentUpdatingBlock_];
 
-    currentUpdatingBlock_ = [self performBlock:^{
+    __weak id weakSelf = self;
+    
+    currentUpdatingBlock_ = [weakSelf performBlock:^{
         
         if(currentFullNameView_ && reloadCurrentlyDisplayedPreview_)
         {
-            [self switchToNamedPreview:currentFullNameView_];
+            [weakSelf switchToNamedPreview:currentFullNameView_];
         }
         
-        [self applyStyle];
+        [weakSelf applyStyle];
         
     } afterDelay:0.7];
 

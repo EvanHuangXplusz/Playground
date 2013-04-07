@@ -6,6 +6,7 @@
     transform : rotate(15);
     border-color : white;
     border-width : 10;
+    border-style: solid;
     position : 75 40;
     box-shadow : 10 10 5;
 }
@@ -15,6 +16,7 @@
     transform : rotate(-5);
     border-color : white;
     border-width : 10;
+    border-style: solid;
     position : 210 40;
     box-shadow : 10 10 5;
 }
@@ -24,6 +26,7 @@
     transform : rotate(-10);
     border-color : white;
     border-width : 10;
+    border-style: solid;
     position : 50 180;
     box-shadow : 10 10 5;
 }
@@ -33,6 +36,7 @@
     transform : rotate(15);
     border-color : white;
     border-width : 10;
+    border-style: solid;
     position : 210 190;
     box-shadow : 10 10 5;
 }

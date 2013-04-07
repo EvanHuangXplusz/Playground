@@ -12,12 +12,8 @@
     font-weight      : bold;
 }
 
-#bar1 nav-buttons {
-    background-color: lightblue;
-}
-
-/* Give all nav buttons a 'base' look */
-.myLeftNavButtons {
+#bar1 back-bar-button
+{
     top                 : 6;
     size                : 115 31;
     shape               : arrow-button-left;

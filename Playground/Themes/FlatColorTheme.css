@@ -51,7 +51,7 @@
 #activity3 {
     style            : large;
     color            : #6e6e6e;
-    background-color : none;
+    background-color : transparent;
     size             : 70px 70px;
 }
 
@@ -279,12 +279,8 @@
   font-weight      : bold;
 }
 
-#bar1 nav-buttons {
-    background-color: lightblue;
-}
-
-/* Give all nav buttons a 'base' look */
-.myLeftNavButtons {
+#bar1 back-bar-button
+{
     top                 : 6;
     size                : 115 31;
     shape               : arrow-button-left;
@@ -491,16 +487,10 @@
 
 #mySearch1 {
     background-color : #fff;
-    font-size        : 16px;
-    font-family      : Arial;
-    font-weight      : normal;
 }
 
 #mySearch2 {
     background-color : #4787ed;
-    font-size        : 16px;
-    font-family      : Arial;
-    font-weight      : normal;
 }
 
 #mySearch3 {

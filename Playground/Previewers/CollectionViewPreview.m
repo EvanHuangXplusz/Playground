@@ -9,7 +9,6 @@
 #import "CollectionViewPreview.h"
 #import "CollectionViewController.h"
 #import "CollectionViewCircleLayout.h"
-#import "CollectionViewLineLayout.h"
 
 @implementation CollectionViewPreview
 {
@@ -18,11 +17,6 @@
 
 - (void) initializeCustomController
 {
-    /* flow layout 
-    collectionViewController_ = [[CollectionViewController alloc]
-                                 initWithCollectionViewLayout:[[CollectionViewLineLayout alloc] init]];
-     */
-    
     collectionViewController_ = [[CollectionViewController alloc]
                                  initWithCollectionViewLayout:[[CollectionViewCircleLayout alloc] init]];
 }

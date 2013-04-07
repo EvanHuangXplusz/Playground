@@ -15,7 +15,7 @@
     color : white;
 }
 
-#myTable refresh-control image-view:nth-child(2) {
+#myRefreshControl image-view:nth-child(2) {
     background-color : linear-gradient(red, #1959c9);
     border-radius    : 10px;
     border-width     : 1px;
