@@ -22,3 +22,5 @@ PROJECT_WORKSPACE="${SAMPLES_WORKSPACE}/${PROJECT_NAME}"
 
 rm -f "${PROJECT_WORKSPACE}/build-all"
 rm -f "${PROJECT_WORKSPACE}/build-sample"
+rm -rf "${PROJECT_WORKSPACE}/.git"
+rm -f "${PROJECT_WORKSPACE}/.gitignore"
