@@ -12,7 +12,7 @@
 
 @required
 
-@property (nonatomic, weak, readonly) UIView *previewView;
+@property (nonatomic, weak) UIView *previewView;
 
 @optional
 

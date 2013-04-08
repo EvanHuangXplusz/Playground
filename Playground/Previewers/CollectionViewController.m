@@ -141,11 +141,14 @@
         {
             self.cellCount = self.cellCount + 1;
             [self.collectionView performBatchUpdates:^{
-                [self.collectionView insertItemsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForItem:0 inSection:0]]];
+                int items = [self.collectionView numberOfItemsInSection:0];
+                
+                [self.collectionView insertItemsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForItem:items inSection:0]]];
             } completion:nil];
         }
         
-        [PXEngine applyStylesheets];
+        //[self.collectionView updateStyles];
+        //[PXEngine applyStylesheets];
     }
 }
 

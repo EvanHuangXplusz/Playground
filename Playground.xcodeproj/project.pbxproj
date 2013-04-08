@@ -14,7 +14,6 @@
 		0A9943CB16B43B4900A24DB8 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9943CA16B43B4900A24DB8 /* pin.png */; };
 		0ADB8175163F1B8C00E61B59 /* TabBarPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB8174163F1B8C00E61B59 /* TabBarPreview.xib */; };
 		0ADB817B163F242900E61B59 /* tab_select_indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADB817A163F242900E61B59 /* tab_select_indicator.png */; };
-		0AE48C5C16BB153F002EE07F /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE48C5B16BB153F002EE07F /* PXEngine.framework */; };
 		9C03B818165704DA00590593 /* NavigationBarPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03B817165704DA00590593 /* NavigationBarPreview.m */; };
 		9C03B820165705DB00590593 /* NavigationBarExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C03B81E165705DA00590593 /* NavigationBarExamples.m */; };
 		9C03B821165705DB00590593 /* NavigationBarExamples.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C03B81F165705DA00590593 /* NavigationBarExamples.xib */; };
@@ -159,13 +158,12 @@
 		9C2B216C165B2069009AE00F /* WebViewPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C2B216A165B2069009AE00F /* WebViewPreview.xib */; };
 		9C2B216F165B2220009AE00F /* WebViewPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B216E165B2220009AE00F /* WebViewPreviewController.m */; };
 		9C2B2173165B23A8009AE00F /* WebViewPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B2172165B23A8009AE00F /* WebViewPreview.m */; };
+		9C35F6D816E1B372008C2AB3 /* PXEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C35F6D716E1B372008C2AB3 /* PXEngine.framework */; };
 		9C4171C3165C2DD7001B2E09 /* SegmentedControlPreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4171C1165C2DD7001B2E09 /* SegmentedControlPreview.xib */; };
 		9C41E0991666FC4000E93D3A /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41E0941666FC4000E93D3A /* CollectionViewController.m */; };
 		9C41E09A1666FC4000E93D3A /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41E0961666FC4000E93D3A /* CollectionViewCell.m */; };
 		9C41E09B1666FC4000E93D3A /* CollectionViewCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41E0981666FC4000E93D3A /* CollectionViewCircleLayout.m */; };
 		9C41E09E1666FC7D00E93D3A /* CollectionViewPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41E09D1666FC7D00E93D3A /* CollectionViewPreview.m */; };
-		9C41E0A21666FE5200E93D3A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C41E0A11666FE5200E93D3A /* QuartzCore.framework */; };
-		9C41E0AA166705B100E93D3A /* CollectionViewLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C41E0A91667056000E93D3A /* CollectionViewLineLayout.m */; };
 		9C491263166866C50040FF53 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C491261166866C50040FF53 /* pin@2x.png */; };
 		9C511F4B165466FA00D85ED4 /* ProgressViewPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C511F4A165466FA00D85ED4 /* ProgressViewPreview.m */; };
 		9C5ED01516B9ECF900C40E49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5ED01316B9ECE300C40E49 /* MapKit.framework */; };
@@ -205,6 +203,7 @@
 		9C680064168D4C5F00B4491C /* toucan.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9C680061168D4C5800B4491C /* toucan.svg */; };
 		9C680066168D4D8100B4491C /* lion.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9C680065168D4D8100B4491C /* lion.svg */; };
 		9C8715E0164B242B005ACFCF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8715DF164B242B005ACFCF /* MessageUI.framework */; };
+		9C8F29B016E2C4AB00AD1987 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8F29AF16E2C4AB00AD1987 /* QuartzCore.framework */; };
 		9C915051167129E80082037D /* IASKAppSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C915033167129E80082037D /* IASKAppSettingsViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9C915052167129E80082037D /* IASKAppSettingsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C915035167129E80082037D /* IASKAppSettingsWebViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9C915053167129E80082037D /* IASKSpecifierValuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C915037167129E80082037D /* IASKSpecifierValuesViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -259,7 +258,6 @@
 		0ADB8174163F1B8C00E61B59 /* TabBarPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarPreview.xib; sourceTree = "<group>"; };
 		0ADB8178163F1C3B00E61B59 /* TabBarPreview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = TabBarPreview.css; path = Themes/Medley/TabBarPreview.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		0ADB817A163F242900E61B59 /* tab_select_indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_select_indicator.png; sourceTree = "<group>"; };
-		0AE48C5B16BB153F002EE07F /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = "../../../../Library/Developer/Xcode/DerivedData/pixate-ezqddzvchmdpzafkjoeukvuqdqzq/Build/Products/Debug-iphoneos/PXEngine.framework"; sourceTree = SOURCE_ROOT; };
 		9C03B816165704DA00590593 /* NavigationBarPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarPreview.h; sourceTree = "<group>"; };
 		9C03B817165704DA00590593 /* NavigationBarPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarPreview.m; sourceTree = "<group>"; };
 		9C03B81D165705DA00590593 /* NavigationBarExamples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarExamples.h; sourceTree = "<group>"; };
@@ -444,6 +442,7 @@
 		9C2B216E165B2220009AE00F /* WebViewPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewPreviewController.m; sourceTree = "<group>"; };
 		9C2B2171165B23A8009AE00F /* WebViewPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewPreview.h; sourceTree = "<group>"; };
 		9C2B2172165B23A8009AE00F /* WebViewPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewPreview.m; sourceTree = "<group>"; };
+		9C35F6D716E1B372008C2AB3 /* PXEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PXEngine.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/pixate-ecgyszhvdzzbbkhhcnoqdclzmywq/Build/Products/Debug-iphoneos/PXEngine.framework"; sourceTree = "<group>"; };
 		9C4171C0165C2DD6001B2E09 /* SegmentedControlPreview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = SegmentedControlPreview.css; path = Themes/Medley/SegmentedControlPreview.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		9C4171C1165C2DD7001B2E09 /* SegmentedControlPreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentedControlPreview.xib; sourceTree = "<group>"; };
 		9C41E0931666FC4000E93D3A /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
@@ -455,9 +454,6 @@
 		9C41E09C1666FC7D00E93D3A /* CollectionViewPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewPreview.h; sourceTree = "<group>"; };
 		9C41E09D1666FC7D00E93D3A /* CollectionViewPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewPreview.m; sourceTree = "<group>"; };
 		9C41E09F1666FD7C00E93D3A /* CollectionViewPreview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = CollectionViewPreview.css; path = Themes/Medley/CollectionViewPreview.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
-		9C41E0A11666FE5200E93D3A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		9C41E0A81667056000E93D3A /* CollectionViewLineLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewLineLayout.h; sourceTree = "<group>"; };
-		9C41E0A91667056000E93D3A /* CollectionViewLineLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewLineLayout.m; sourceTree = "<group>"; };
 		9C491261166866C50040FF53 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
 		9C511F49165466FA00D85ED4 /* ProgressViewPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewPreview.h; sourceTree = "<group>"; };
 		9C511F4A165466FA00D85ED4 /* ProgressViewPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewPreview.m; sourceTree = "<group>"; };
@@ -522,6 +518,7 @@
 		9C680061168D4C5800B4491C /* toucan.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = toucan.svg; sourceTree = "<group>"; };
 		9C680065168D4D8100B4491C /* lion.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lion.svg; sourceTree = "<group>"; };
 		9C8715DF164B242B005ACFCF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9C8F29AF16E2C4AB00AD1987 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9C915032167129E80082037D /* IASKAppSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKAppSettingsViewController.h; sourceTree = "<group>"; };
 		9C915033167129E80082037D /* IASKAppSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASKAppSettingsViewController.m; sourceTree = "<group>"; };
 		9C915034167129E80082037D /* IASKAppSettingsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASKAppSettingsWebViewController.h; sourceTree = "<group>"; };
@@ -626,10 +623,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AE48C5C16BB153F002EE07F /* PXEngine.framework in Frameworks */,
+				9C8F29B016E2C4AB00AD1987 /* QuartzCore.framework in Frameworks */,
+				9C35F6D816E1B372008C2AB3 /* PXEngine.framework in Frameworks */,
 				9C5ED01516B9ECF900C40E49 /* MapKit.framework in Frameworks */,
 				9CBAD5E01673EF3F0029F394 /* StoreKit.framework in Frameworks */,
-				9C41E0A21666FE5200E93D3A /* QuartzCore.framework in Frameworks */,
 				9C8715E0164B242B005ACFCF /* MessageUI.framework in Frameworks */,
 				9C636DBA16374F58009A1878 /* UIKit.framework in Frameworks */,
 				9C636DBC16374F58009A1878 /* Foundation.framework in Frameworks */,
@@ -888,14 +885,12 @@
 			children = (
 				9C41E09C1666FC7D00E93D3A /* CollectionViewPreview.h */,
 				9C41E09D1666FC7D00E93D3A /* CollectionViewPreview.m */,
+				9C41E0931666FC4000E93D3A /* CollectionViewController.h */,
+				9C41E0941666FC4000E93D3A /* CollectionViewController.m */,
 				9C41E0951666FC4000E93D3A /* CollectionViewCell.h */,
 				9C41E0961666FC4000E93D3A /* CollectionViewCell.m */,
 				9C41E0971666FC4000E93D3A /* CollectionViewCircleLayout.h */,
 				9C41E0981666FC4000E93D3A /* CollectionViewCircleLayout.m */,
-				9C41E0931666FC4000E93D3A /* CollectionViewController.h */,
-				9C41E0941666FC4000E93D3A /* CollectionViewController.m */,
-				9C41E0A81667056000E93D3A /* CollectionViewLineLayout.h */,
-				9C41E0A91667056000E93D3A /* CollectionViewLineLayout.m */,
 			);
 			name = CollectionViewPreview;
 			sourceTree = "<group>";
@@ -922,13 +917,13 @@
 		9C636DB816374F58009A1878 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0AE48C5B16BB153F002EE07F /* PXEngine.framework */,
+				9C8F29AF16E2C4AB00AD1987 /* QuartzCore.framework */,
+				9C35F6D716E1B372008C2AB3 /* PXEngine.framework */,
 				9C5ED01316B9ECE300C40E49 /* MapKit.framework */,
 				9CBAD5DF1673EF3F0029F394 /* StoreKit.framework */,
 				9C636DBD16374F58009A1878 /* CoreGraphics.framework */,
 				9C636DBB16374F58009A1878 /* Foundation.framework */,
 				9C8715DF164B242B005ACFCF /* MessageUI.framework */,
-				9C41E0A11666FE5200E93D3A /* QuartzCore.framework */,
 				9C636DB916374F58009A1878 /* UIKit.framework */,
 			);
 			name = Frameworks;
@@ -1596,7 +1591,6 @@
 				9C41E09A1666FC4000E93D3A /* CollectionViewCell.m in Sources */,
 				9C41E09B1666FC4000E93D3A /* CollectionViewCircleLayout.m in Sources */,
 				9C41E09E1666FC7D00E93D3A /* CollectionViewPreview.m in Sources */,
-				9C41E0AA166705B100E93D3A /* CollectionViewLineLayout.m in Sources */,
 				9C12873A16682555005A0086 /* MapViewPreviewController.m in Sources */,
 				9C1287431668265F005A0086 /* MapViewPreview.m in Sources */,
 				9C12874616682A10005A0086 /* MapViewPreviewLocation.m in Sources */,
@@ -1718,6 +1712,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Framework\"",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/pixate-ecgyszhvdzzbbkhhcnoqdclzmywq/Build/Products/Debug-iphoneos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
@@ -1745,6 +1740,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Framework\"",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/pixate-ecgyszhvdzzbbkhhcnoqdclzmywq/Build/Products/Debug-iphoneos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";

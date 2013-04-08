@@ -34,4 +34,10 @@
     return self.view;
 }
 
+-(void)dealloc
+{
+    examples_ = nil;
+    navigationController_ = nil;
+}
+
 @end

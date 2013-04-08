@@ -16,7 +16,7 @@ static inline dispatch_time_t dTimeDelay(NSTimeInterval time) {
  
 @implementation NSObject (Blocks)
  
-+ (id)performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay {
++ (id)performBlock:(void (^)(void))block afterDelay:(NSTimeInterval)delay completion:(void (^)(void))completion {
     if (!block) return nil;
     
     __block BOOL cancelled = NO;
@@ -26,7 +26,11 @@ static inline dispatch_time_t dTimeDelay(NSTimeInterval time) {
             cancelled = YES;
             return;
         }
-        if (!cancelled)block();
+        if (!cancelled)
+        {
+            block();
+            if(completion) completion();
+        }
     };
  
     wrappingBlock = [wrappingBlock copy];
