@@ -820,12 +820,12 @@
 			children = (
 				9C12E412168009FF008AF764 /* buildAllThemes.sh */,
 				9C12E30D167FEBB9008AF764 /* buildThemeFile.sh */,
-				D00B5A31167EC1A40052546F /* PixelPerfect */,
-				D00B5A4A167EC1A40052546F /* PixelPerfectTheme.css */,
-				9C28D36E166D658B00947BAA /* Medley */,
-				9C28D36C166D64DB00947BAA /* MedleyTheme.css */,
 				9C27267816759A40006F3545 /* FlatColor */,
 				9C272666167599E5006F3545 /* FlatColorTheme.css */,
+				9C28D36E166D658B00947BAA /* Medley */,
+				9C28D36C166D64DB00947BAA /* MedleyTheme.css */,
+				D00B5A31167EC1A40052546F /* PixelPerfect */,
+				D00B5A4A167EC1A40052546F /* PixelPerfectTheme.css */,
 			);
 			name = Themes;
 			sourceTree = "<group>";
