@@ -8,12 +8,12 @@
   font-size        : 13px;
   font-weight      : bold;
   color            : #ffffff;
-  background-color : linear-gradient(#2c4880, #5c78af);
+  background-image : linear-gradient(#2c4880, #5c78af);
   box-shadow       : inset 0 1px 4px #000, 0 1px 1px rgba(255,255,255,0.2);
 }
 
 #myActionSheet1 {
-    background-color: linear-gradient(white,#2c4880);
+    background-image: linear-gradient(white,#2c4880);
 }
 
 #myActionSheet1 label {
@@ -33,7 +33,7 @@
 #activity1  {
   style            : small;
   color            : white;
-  background-color : linear-gradient(#202020, #4d4d4c);
+  background-image : linear-gradient(#202020, #4d4d4c);
   size             : 50px 50px;
   border-radius    : 10px;
   border-width     : 2px;
@@ -43,7 +43,7 @@
 #activity2  {
   style            : small;
   color            : red;
-  background-color : linear-gradient(#202020, #4d4d4c);
+  background-image : linear-gradient(#202020, #4d4d4c);
   size             : 50px 50px;
   border-radius    : 10px;
   border-width     : 2px;
@@ -53,7 +53,7 @@
 #activity3  {
   style            : large;
   color            : lightgreen;
-  background-color : linear-gradient(#202020, #4d4d4c);
+  background-image : linear-gradient(#202020, #4d4d4c);
   size             : 70px 70px;
   border-radius    : 10px;
   border-width     : 2px;
@@ -75,7 +75,7 @@
   font-weight      : bold;
   text-transform   : uppercase;
   color            : #ffffff;
-  background-color : linear-gradient(#2c4880, #5c78af);
+  background-image : linear-gradient(#2c4880, #5c78af);
   box-shadow       : inset 0 1px 4px #000,
                        0 1px 1px rgba(255,255,255,0.2);
 }
@@ -96,7 +96,7 @@
   border-radius    : 10px;
   font-size        : 13px;
   color            : #3e434f;
-  background-color : linear-gradient(#e7e8ea, #f2f4f6);
+  background-image : linear-gradient(#e7e8ea, #f2f4f6);
   border-width     : 1px;
   border-color     : rgba(0, 0, 0, 0.1);
   icon             : url("star.svg");
@@ -105,7 +105,7 @@
 
 #button3 {
   color            : #446620;
-  background-color : linear-gradient(#87c44a, #b4da77);
+  background-image : linear-gradient(#87c44a, #b4da77);
   border-width     : 1px;
   border-color     : #84a254;
   border-radius    : 10px;
@@ -118,7 +118,7 @@
   font-weight      : 700;
   border-width     : 2px;
   border-color     : #0f7cce;
-  background-color : linear-gradient(#0979c3, #57bdfb);
+  background-image : linear-gradient(#0979c3, #57bdfb);
   color            : #ffffff;
   text-transform   : uppercase;
 }
@@ -129,7 +129,7 @@
   font-weight      : bold;
   border-width     : 2px;
   border-color     : #44610b;
-  background-color : linear-gradient(#6c9b1a, #abd64f);
+  background-image : linear-gradient(#6c9b1a, #abd64f);
   color            : #476710;
   text-transform   : uppercase;
 }
@@ -140,7 +140,7 @@
   font-weight      : bold;
   border-width     : 2px;
   border-color     : #e55736;
-  background-color : linear-gradient(#85311d, #7f2f1b);
+  background-image : linear-gradient(#85311d, #7f2f1b);
   color            : #da4f30;
   text-transform   : uppercase;
 }
@@ -159,7 +159,7 @@
  * Note: UICollectionView is only supported in iOS 6
  */
 #myCollectionView {
-    background-color : linear-gradient(black,gray);
+    background-image : linear-gradient(black,gray);
     background-size  : 495 330;
     border-radius    : 3;
     position         : 3 3;
@@ -274,7 +274,7 @@
 }
 
 #myMapBackground {
-  background-color : linear-gradient(45deg,
+  background-image : linear-gradient(45deg,
                                #002000 50%, 
                                #008800 60%);
   background-size  : 495 330;
@@ -360,7 +360,7 @@
 /* Use percentages on linear gradient to
    uniformly distribute colors */
 #bar2 {
-   background-color : linear-gradient(
+   background-image : linear-gradient(
                         #E23622 49%,
                         #FC684E 50%
                       );
@@ -376,7 +376,7 @@
 /* Create horizontal gradient with angle
    on linear gradient */
 #bar3 {
-   background-color : linear-gradient(
+   background-image : linear-gradient(
                         -90deg,
                         #1e5799 0%, 
                         #2989d8 50%, 
@@ -394,7 +394,7 @@
 
 /* horizontal linear gradient with solid fill colors */
 #bar4 {
-   background-color : linear-gradient(
+   background-image : linear-gradient(
                         #0a0a0a 0%,
                         #0c0c0c 50%,
                         #222 51%,
@@ -432,7 +432,7 @@
 #page1 {
   color            : red;
   current-color    : blue;
-  background-color : linear-gradient(#202020, purple);
+  background-image : linear-gradient(#202020, purple);
   border-radius    : 5px;
   border-width     : 1px;
   border-color     : black;
@@ -441,7 +441,7 @@
 #page2 {
   color            : yellow;
   current-color    : gray;
-  background-color : linear-gradient(#202020, #4d4d4c);
+  background-image : linear-gradient(#202020, #4d4d4c);
   border-radius    : 5px;
   border-width     : 1px;
   border-color     : black;
@@ -463,7 +463,7 @@
  * UITableView and UITableViewCells.
  */
 #picker1 table-view {
-  background-color   : linear-gradient(red,yellow); 
+  background-image   : linear-gradient(red,yellow); 
 }
 
 /* Currently works on iOS 5.1 only
@@ -473,12 +473,12 @@
 */
 
 #picker1 table-view-cell {
-  background-color   : linear-gradient(yellow, red);
+  background-image   : linear-gradient(yellow, red);
   opacity            : .7;
 }
 
 #picker2 table-view{
-  background-color   : linear-gradient(red, blue);
+  background-image   : linear-gradient(red, blue);
 }
 
 /* Currently works on iOS 5.1 only
@@ -488,7 +488,7 @@
 */
 
 #picker2 table-view-cell {
-    background-color : linear-gradient(green, yellow);
+    background-image : linear-gradient(green, yellow);
     border-radius    : 20px;
     border-color     : black;
     border-width     : 4px;
@@ -524,11 +524,11 @@
   top              : 160;
   left             : 125;
   height           : 10px;
-  background-color: linear-gradient(105deg,blue,white);
+  background-image: linear-gradient(105deg,blue,white);
 }
 
 #myProgress2 track {
-  background-color : linear-gradient(45deg,
+  background-image : linear-gradient(45deg,
                       #E23622 30%, #FC684E 31%, 
                       #FC684E 60%, #E23622 61%
                    );
@@ -593,18 +593,18 @@
 /** SegmentedControlPreview **/
 
 #seg1  {
-  background-color : linear-gradient(red,white);
+  background-image : linear-gradient(red,white);
   border-radius    : 30px;
   color            : white;
 }
 
 #seg1 divider {
-  background-color : linear-gradient(red,pink,red);
+  background-image : linear-gradient(red,pink,red);
   background-size  : 2 20;
 }
 
 #seg2  {
-  background-color : linear-gradient(45deg, #ddd, black);
+  background-image : linear-gradient(45deg, #ddd, black);
   border-radius    : 10px;
   border-color     : gray;
   border-width     : 4px;
@@ -647,12 +647,12 @@
 }
 
 #slider2 min-track {
-  background-color : linear-gradient(#202020, lightcoral);
+  background-image : linear-gradient(#202020, lightcoral);
   background-size  : 1px 15px;
 }
 
 #slider2 max-track {
-  background-color : linear-gradient(#202020, lightgreen);
+  background-image : linear-gradient(#202020, lightgreen);
   background-size  : 1px 15px;
 }
 
@@ -736,14 +736,14 @@
 }
 
 #tab-bar3 {
-  background-color : linear-gradient(#cccccc, #f2f4f6);
+  background-image : linear-gradient(#cccccc, #f2f4f6);
   color            : darkgreen;
 }
 
 /* Use a custom vector image for the selected image. */
 #tab-bar3 tab-bar-item:selected {
     shape: ellipse;
-    background-color: linear-gradient(grey, white);
+    background-image: linear-gradient(grey, white);
     box-shadow: inset 0 0 6 rgba(black, 0.5);
     background-size  : 30px 30px;
 }
@@ -751,7 +751,7 @@
 /* Use a custom vector image for the unselected image. */
 #tab-bar3 tab-bar-item:unselected {
     shape: ellipse;
-    background-color: linear-gradient(grey, white);
+    background-image: linear-gradient(grey, white);
     box-shadow: inset 0 0 6 rgba(white, 0.75);
     background-size  : 30px 30px;
 }
@@ -775,7 +775,7 @@
  * pull table cells down to see the custom styled refresh.
  */
 #myTable {
-    background-color : linear-gradient(black, white);
+    background-image : linear-gradient(black, white);
       separator-style: etched-line;
 }
 
@@ -889,7 +889,7 @@
 }
 
 #myToolbar3 {
-  background-color : linear-gradient(45deg, 
+  background-image : linear-gradient(45deg, 
                             red, 
                             rgb(200,200,240));
 }
@@ -924,7 +924,7 @@
 }
 
 #previewView  {
-    background-color : linear-gradient(45deg, black, red);
+    background-image : linear-gradient(45deg, black, red);
 }
 
 
@@ -936,15 +936,15 @@
 /** ViewPreview **/
 
 #view1 {
-  background-color : linear-gradient(#cfc0ab, #f1eee6);
+  background-image : linear-gradient(#cfc0ab, #f1eee6);
 }
 
 #view2 {
-  background-color : linear-gradient(#54616f, #687685);
+  background-image : linear-gradient(#54616f, #687685);
 }
 
 #view3 {
-  background-color : linear-gradient(#c7482c, #df5132);
+  background-image : linear-gradient(#c7482c, #df5132);
 }
 
 /** End of ViewPreview **/
@@ -977,7 +977,7 @@
 }
 
 #browserView {
-  background-color   : linear-gradient(45deg, #202020 50%, #4d4d4c 60%);
+  background-image   : linear-gradient(45deg, #202020 50%, #4d4d4c 60%);
     background-size  : 495 330;
     border-radius    : 3;
     position         : 3 3;

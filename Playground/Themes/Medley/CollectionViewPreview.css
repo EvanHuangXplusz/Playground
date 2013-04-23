@@ -4,7 +4,7 @@
  * Note: UICollectionView is only supported in iOS 6
  */
 #myCollectionView {
-    background-color : linear-gradient(black,gray);
+    background-image : linear-gradient(black,gray);
     background-size  : 495 330;
     border-radius    : 3;
     position         : 3 3;

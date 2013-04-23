@@ -16,7 +16,7 @@
 }
 
 #myRefreshControl image-view:nth-child(2) {
-    background-color : linear-gradient(red, #1959c9);
+    background-image : linear-gradient(red, #1959c9);
     border-radius    : 10px;
     border-width     : 1px;
     border-color     : gray;

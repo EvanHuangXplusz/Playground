@@ -4,7 +4,7 @@
   font-size        : 13px;
   font-weight      : bold;
   color            : #ffffff;
-  background-color : linear-gradient(#215a88, #4d93dd);
+  background-image : linear-gradient(#215a88, #4d93dd);
   border-width     : 1px;
   border-color     : #212325;
   box-shadow       : inset 0 0 1px rgba(101, 177, 232, 0.9),
@@ -12,7 +12,7 @@
 }
 
 #myActionSheet1 {
-  background-color: linear-gradient(#3c4145, #585e62);
+  background-image: linear-gradient(#3c4145, #585e62);
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.5);
 }
 
@@ -25,5 +25,5 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }

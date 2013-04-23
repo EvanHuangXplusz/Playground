@@ -43,6 +43,6 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 

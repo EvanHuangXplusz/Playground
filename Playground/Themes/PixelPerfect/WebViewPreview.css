@@ -4,7 +4,7 @@
   font-size        : 13px;
   font-weight      : bold;
   color            : #ffffff;
-  background-color : linear-gradient(#215a88, #4d93dd);
+  background-image : linear-gradient(#215a88, #4d93dd);
   border-width     : 1px;
   border-color     : #212325;
   box-shadow: inset 0 0 2px rgba(101, 177, 232, 0.9),
@@ -24,7 +24,7 @@
 }
 
 #browserView {
-  background-color  : linear-gradient(#292e31, #3a3f42);
+  background-image  : linear-gradient(#292e31, #3a3f42);
     background-size : 495 330;
     position        : 3 3;
     size            : 495 330;

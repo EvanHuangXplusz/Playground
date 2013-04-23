@@ -2,7 +2,7 @@
  * UITableView and UITableViewCells.
  */
 #picker1 table-view {
-  background-color   : linear-gradient(red,yellow); 
+  background-image   : linear-gradient(red,yellow); 
 }
 
 /* Currently works on iOS 5.1 only
@@ -12,12 +12,12 @@
 */
 
 #picker1 table-view-cell {
-  background-color   : linear-gradient(yellow, red);
+  background-image   : linear-gradient(yellow, red);
   opacity            : .7;
 }
 
 #picker2 table-view{
-  background-color   : linear-gradient(red, blue);
+  background-image   : linear-gradient(red, blue);
 }
 
 /* Currently works on iOS 5.1 only
@@ -27,7 +27,7 @@
 */
 
 #picker2 table-view-cell {
-    background-color : linear-gradient(green, yellow);
+    background-image : linear-gradient(green, yellow);
     border-radius    : 20px;
     border-color     : black;
     border-width     : 4px;

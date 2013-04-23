@@ -2,12 +2,12 @@
  * UITableView and UITableViewCells.
  */
 #picker2 table-view{
-  background-color: linear-gradient(#292e31, #3a3f42);
+  background-image: linear-gradient(#292e31, #3a3f42);
 }
 
 #picker2 table-view-cell {
   color            : #ffffff;
-  background-color : linear-gradient(#3c4145, #585e62);
+  background-image : linear-gradient(#3c4145, #585e62);
   border-width     : 1px;
   border-color     : #212325;
   border-radius    : 5px;
@@ -17,6 +17,6 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 

@@ -27,7 +27,7 @@
 }
 
 #myProgress2 track {
-    background-color : linear-gradient(45deg,
+    background-image : linear-gradient(45deg,
                         #6d9b5d 30%, #8eb579 31%, 
                         #8eb579 60%, #6d9b5d 61%
                      );
@@ -48,5 +48,5 @@
 
 /* Alter preview pane appearance */
 #previewView {
-    background-color : linear-gradient(#292e31, #3a3f42);
+    background-image : linear-gradient(#292e31, #3a3f42);
 }

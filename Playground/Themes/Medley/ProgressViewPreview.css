@@ -20,11 +20,11 @@
   top              : 160;
   left             : 125;
   height           : 10px;
-  background-color: linear-gradient(105deg,blue,white);
+  background-image: linear-gradient(105deg,blue,white);
 }
 
 #myProgress2 track {
-  background-color : linear-gradient(45deg,
+  background-image : linear-gradient(45deg,
                       #E23622 30%, #FC684E 31%, 
                       #FC684E 60%, #E23622 61%
                    );

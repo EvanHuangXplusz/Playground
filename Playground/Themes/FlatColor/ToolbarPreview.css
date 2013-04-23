@@ -5,7 +5,7 @@
     background-color : #1959c9;
 }
 #myToolbar3 {
-    background-color : linear-gradient(#D14836, #DD4B39);
+    background-image : linear-gradient(#D14836, #DD4B39);
 }
 
 #myToolbar3 bar-button-item:nth-child(even) {

@@ -7,7 +7,7 @@
   font-size        : 13px;
   font-weight      : bold;
   color            : #ffffff;
-  background-color : linear-gradient(#215a88, #4d93dd);
+  background-image : linear-gradient(#215a88, #4d93dd);
   border-width     : 1px;
   border-color     : #212325;
   box-shadow       : inset 0 0 1px rgba(101, 177, 232, 0.9),
@@ -15,7 +15,7 @@
 }
 
 #myActionSheet1 {
-  background-color: linear-gradient(#3c4145, #585e62);
+  background-image: linear-gradient(#3c4145, #585e62);
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.5);
 }
 
@@ -28,7 +28,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of ActionSheetPreview **/
@@ -72,7 +72,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of ActivityIndicatorViewPreview **/
@@ -89,7 +89,7 @@
   font-size       : 13px;
   font-weight     : bold;
   color           : #ffffff;
-  background-color: linear-gradient(#3c4145, #585e62);
+  background-image: linear-gradient(#3c4145, #585e62);
   border-width    : 1px;
   border-color    : #212325;
   box-shadow      : inset 0 1px 0 rgba(255,255,255,0.3),
@@ -112,7 +112,7 @@
   font-size      : 13px;
   font-weight    : bold;
   color          : #ffffff;
-  background-color: linear-gradient(#215a88, #4d93dd);
+  background-image: linear-gradient(#215a88, #4d93dd);
   border-width   : 1px;
   border-color   : #212325;
   box-shadow     : inset 0 1px 0 rgba(101,177,232,0.9),
@@ -130,7 +130,7 @@
 }
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of ButtonPreview **/
@@ -146,7 +146,7 @@
  * Note: UICollectionView is only supported in iOS 6
  */
 #myCollectionView {
-    background-color : linear-gradient(#292e31, #3a3f42);
+    background-image : linear-gradient(#292e31, #3a3f42);
     background-size  : 495 330;
     border-radius    : 3px;
     position         : 3px 3px;
@@ -154,7 +154,7 @@
 }
 
 #myCollectionView .collectionCell:nth-child(odd) {
-    background-color : linear-gradient(#3c4145, #585e62);
+    background-image : linear-gradient(#3c4145, #585e62);
     border-radius    : 35px;
     border-color     : #212325;
     border-width     : 1px;
@@ -163,7 +163,7 @@
 }
 
 #myCollectionView .collectionCell:nth-child(even) {
-    background-color : linear-gradient(#215a88, #4d93dd);
+    background-image : linear-gradient(#215a88, #4d93dd);
     border-radius    : 25px;
     border-color     : #212325;
     border-width     : 1px;
@@ -223,7 +223,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 
@@ -254,7 +254,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of LabelPreview **/
@@ -272,7 +272,7 @@
 }
 
 #myMapBackground {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
   background-size  : 495 330;
   border-radius    : 3;
   position         : 3 3;
@@ -281,7 +281,7 @@
 
 .myAnnotations {
   border-radius    : 8px
-  background-color : linear-gradient(#215a88, #4d93dd);
+  background-image : linear-gradient(#215a88, #4d93dd);
   background-size  : 16px 16px;
   border-width     : 1px;
   border-color     : #163d61
@@ -306,7 +306,7 @@
   font-size      : 20px;
   font-weight    : bold;
   color          : #ffffff;
-  background-color : linear-gradient(#3c4145, #585e62);
+  background-image : linear-gradient(#3c4145, #585e62);
   box-shadow     : inset 0 1px 0 rgba(255,255,255,0.3),
                    0 1px 1px rgba(0,0,0,0.5);  
 }
@@ -319,7 +319,7 @@
     font-size       : 12px;
     color           : #ffffff;
     border-radius   : 3px;
-    background-color: linear-gradient(#215a88, #4d93dd);
+    background-image: linear-gradient(#215a88, #4d93dd);
     border-width    : 1px;
     border-color    : #212325;
     box-shadow      : inset 0 1px 0 rgba(101,177,232,0.9),
@@ -331,7 +331,7 @@
   font-size      : 13px;
   font-weight    : bold;
   color          : #ffffff;
-  background-color: linear-gradient(#215a88, #4d93dd);
+  background-image: linear-gradient(#215a88, #4d93dd);
   border-width   : 1px;
   border-color   : #212325;
   box-shadow     : inset 0 0 2px rgba(101,177,232,0.9),
@@ -339,7 +339,7 @@
 }
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 
@@ -355,7 +355,7 @@
 #page1 {
   color          : #2b2e31;
   current-color  : #8d9194;
-  background-color: linear-gradient(#3c4145, #585e62);
+  background-image: linear-gradient(#3c4145, #585e62);
   border-width   : 1px;
   border-color   : #212325;
   border-radius  : 3px;
@@ -379,7 +379,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of PageControlPreview **/
@@ -393,12 +393,12 @@
  * UITableView and UITableViewCells.
  */
 #picker2 table-view{
-  background-color: linear-gradient(#292e31, #3a3f42);
+  background-image: linear-gradient(#292e31, #3a3f42);
 }
 
 #picker2 table-view-cell {
   color            : #ffffff;
-  background-color : linear-gradient(#3c4145, #585e62);
+  background-image : linear-gradient(#3c4145, #585e62);
   border-width     : 1px;
   border-color     : #212325;
   border-radius    : 5px;
@@ -408,7 +408,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 
@@ -448,7 +448,7 @@
 }
 
 #myProgress2 track {
-    background-color : linear-gradient(45deg,
+    background-image : linear-gradient(45deg,
                         #6d9b5d 30%, #8eb579 31%, 
                         #8eb579 60%, #6d9b5d 61%
                      );
@@ -469,7 +469,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-    background-color : linear-gradient(#292e31, #3a3f42);
+    background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of ProgressViewPreview **/
@@ -496,7 +496,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of SearchBarPreview **/
@@ -507,7 +507,7 @@
 /** SegmentedControlPreview **/
 
 #seg1  {
-  background-color : linear-gradient(#7c8084,#c8ced2);
+  background-image : linear-gradient(#7c8084,#c8ced2);
   border-radius    : 3px;
   border-color     : #1f2124;
   border-width     : 1px;
@@ -517,7 +517,7 @@
 }
 
 #seg1 divider {
-  background-color : linear-gradient(#505354, #7f8385);
+  background-image : linear-gradient(#505354, #7f8385);
   background-size  : 1 20;
 }
 
@@ -538,7 +538,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of SegmentedControlPreview **/
@@ -552,13 +552,13 @@
    gradient and rounded corners. No bitmap req'd.  */
 
 #slider1 thumb {
-  background-color : linear-gradient(#808487, #cbd1d5);
+  background-image : linear-gradient(#808487, #cbd1d5);
   background-size  : 16px 16px;
   border-radius    : 8px;
 }
 
 #slider1 min-track {
-  background-color : linear-gradient(#215a88, #4d93dd);
+  background-image : linear-gradient(#215a88, #4d93dd);
   background-size  : 10px 10px;
   background-inset : 0px 5px;
   border-radius    : 5px;
@@ -590,7 +590,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of SliderPreview **/
@@ -629,7 +629,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of StepperPreview **/
@@ -658,7 +658,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 
@@ -676,7 +676,7 @@
 #tab-bar2 {
     oolor: gray;
     selected-color: green;
-    background-color : linear-gradient(#3c4145, #585e62);
+    background-image : linear-gradient(#3c4145, #585e62);
     border-width     : 1px;
     border-color     : #212325;
     box-shadow       : inset 0 1px 0 rgba(255,255,255,0.3),
@@ -713,7 +713,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-    background-color : linear-gradient(#292e31, #3a3f42);
+    background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 
@@ -742,7 +742,7 @@
 }
 
 #myRefreshControl image-view:nth-child(2) {
-    background-color : linear-gradient(red, #1959c9);
+    background-image : linear-gradient(red, #1959c9);
     border-radius    : 10px;
     border-width     : 1px;
     border-color     : gray;
@@ -787,7 +787,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 
@@ -821,7 +821,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 
@@ -854,7 +854,7 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of ToolbarPreview **/
@@ -879,7 +879,7 @@
 }
 
 #previewView {
-    background-color : linear-gradient(#292e31, #3a3f42);
+    background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 
@@ -892,23 +892,23 @@
 /** ViewPreview **/
 
 #view1 {
-    background-color: linear-gradient(#215a88,#4d93dd);
+    background-image: linear-gradient(#215a88,#4d93dd);
     box-shadow      : inset 0 2px 3px #000000;
 }
 
 #view2 {
-    background-color : linear-gradient(#588449,#5f8b50);
+    background-image : linear-gradient(#588449,#5f8b50);
     box-shadow       : inset 0 2px 3px #000000;
 }
 
 #view3 {
-    background-color: linear-gradient(#9a3839,#c05556);
+    background-image: linear-gradient(#9a3839,#c05556);
     box-shadow      : inset 0 2px 3px #000000;
 }
 
 /* Alter preview pane appearance */
 #previewView {
-    background-color : linear-gradient(#292e31, #3a3f42);
+    background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 /** End of ViewPreview **/
@@ -924,7 +924,7 @@
   font-size        : 13px;
   font-weight      : bold;
   color            : #ffffff;
-  background-color : linear-gradient(#215a88, #4d93dd);
+  background-image : linear-gradient(#215a88, #4d93dd);
   border-width     : 1px;
   border-color     : #212325;
   box-shadow: inset 0 0 2px rgba(101, 177, 232, 0.9),
@@ -944,7 +944,7 @@
 }
 
 #browserView {
-  background-color  : linear-gradient(#292e31, #3a3f42);
+  background-image  : linear-gradient(#292e31, #3a3f42);
     background-size : 495 330;
     position        : 3 3;
     size            : 495 330;
@@ -964,7 +964,7 @@
   font-size      : 20px;
   font-weight    : bold;
   color          : #ffffff;
-  background-color : linear-gradient(#3c4145, #585e62);
+  background-image : linear-gradient(#3c4145, #585e62);
   box-shadow     : inset 0 1px 0 rgba(255,255,255,0.3),
                    0 1px 1px rgba(0,0,0,0.5);  
 }
@@ -978,7 +978,7 @@
   font-size       : 12px;
   color           : #ffffff;
   border-radius   : 3px;
-  background-color: linear-gradient(#215a88, #4d93dd);
+  background-image: linear-gradient(#215a88, #4d93dd);
   border-width    : 1px;
   border-color    : #212325;
   box-shadow      : inset 0 1px 0 rgba(101,177,232,0.9),
@@ -991,7 +991,7 @@
   font-size      : 13px;
   font-weight    : bold;
   color          : #ffffff;
-  background-color: linear-gradient(#215a88, #4d93dd);
+  background-image: linear-gradient(#215a88, #4d93dd);
   border-width   : 1px;
   border-color   : #212325;
   box-shadow     : inset 0 0 2px rgba(101,177,232,0.9),
@@ -999,7 +999,7 @@
 }
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }
 
 

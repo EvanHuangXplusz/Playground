@@ -6,7 +6,7 @@
     font-family      : Arial;
     font-size        : 11px;
     font-weight      : bold;
-    background-color : linear-gradient(#4787ed, #4d90fe);
+    background-image : linear-gradient(#4787ed, #4d90fe);
     border-radius    : 2px;
     border-width     : 1px;
     border-color     : #3079ed;
@@ -83,7 +83,7 @@
     font-family     : Arial;
     font-size       : 11px;
     font-weight     : bold;
-    background-color: linear-gradient(#4787ed,#4d90fe);
+    background-image: linear-gradient(#4787ed,#4d90fe);
     border-radius   : 2px;
     border-width    : 1px;
     border-color    : #3079ed;
@@ -93,7 +93,7 @@
     font-family     : Arial;
     font-size       : 11px;
     font-weight     : bold;
-    background-color: linear-gradient(#D14836,#DD4B39);
+    background-image: linear-gradient(#D14836,#DD4B39);
     border-radius   : 2px;
 }
 #button4 {
@@ -111,7 +111,7 @@
     font-family     : Arial;
     font-size       : 11px;
     font-weight     : bold;
-    background-color: linear-gradient(#4787ed,#4d90fe);
+    background-image: linear-gradient(#4787ed,#4d90fe);
     border-radius   : 2px;
     border-width    : 1px;
     border-color    : #3079ed;
@@ -121,7 +121,7 @@
     font-family     : Arial;
     font-size       : 11px;
     font-weight     : bold;
-    background-color: linear-gradient(#D14836,#DD4B39);
+    background-image: linear-gradient(#D14836,#DD4B39);
     border-radius   : 2px;
 }
 
@@ -308,7 +308,7 @@
 /* Use percentages on linear gradient to
    uniformly distribute colors */
 #bar2 {
-  background-color : linear-gradient(
+  background-image : linear-gradient(
                        #E23622 49%,
                        #FC684E 50%
                      );
@@ -324,7 +324,7 @@
 /* Create horizontal gradient with angle
    on linear gradient */
 #bar3 {
-  background-color : linear-gradient(
+  background-image : linear-gradient(
                        -90deg,
                        #1e5799 0%, 
                        #2989d8 50%, 
@@ -342,7 +342,7 @@
 
 /* horizontal linear gradient with solid fill colors */
 #bar4 {
-  background-color : linear-gradient(
+  background-image : linear-gradient(
                        #0a0a0a 0%,
                        #0c0c0c 50%,
                        #222 51%,
@@ -386,7 +386,7 @@
 #page2 {
     color            : rgba(219, 231, 252, 0.5);
     current-color    : white;
-    background-color : linear-gradient(#4787ed, #4d90fe);
+    background-image : linear-gradient(#4787ed, #4d90fe);
     border-radius    : 2px;
     border-width     : 1px;
     border-color     : #3079ed;
@@ -454,7 +454,7 @@
 }
 
 #myProgress2 track {
-    background-color : linear-gradient(45deg,
+    background-image : linear-gradient(45deg,
                         #D14836 30%, #dddddd 31%, 
                         #dddddd 60%, #D14836 61%
                      );
@@ -526,7 +526,7 @@
 }
 #seg3 {
     color            : #ffffff;
-    background-color : linear-gradient(#4787ed, #4d90fe);
+    background-image : linear-gradient(#4787ed, #4d90fe);
     border-radius    : 2px;
     border-width     : 1px;
     border-color     : #3079ed;
@@ -545,7 +545,7 @@
 
 #slider1 thumb {
     size             : 16px 16px;
-    background-color : linear-gradient(#4787ed, #4d90fe);
+    background-image : linear-gradient(#4787ed, #4d90fe);
     border-radius    : 2px;
     border-width     : 1px;
     border-color     : #3079ed;
@@ -636,7 +636,7 @@
 }
 
 #tab-bar3 {
-  background-color : linear-gradient(#cccccc, #f2f4f6);
+  background-image : linear-gradient(#cccccc, #f2f4f6);
   color            : #d14836;
 }
 
@@ -683,7 +683,7 @@
 }
 
 #myTable refresh-control image-view:nth-child(2) {
-    background-color : linear-gradient(red, #1959c9);
+    background-image : linear-gradient(red, #1959c9);
     border-radius    : 10px;
     border-width     : 1px;
     border-color     : gray;
@@ -770,7 +770,7 @@
     background-color : #1959c9;
 }
 #myToolbar3 {
-    background-color : linear-gradient(#D14836, #DD4B39);
+    background-image : linear-gradient(#D14836, #DD4B39);
 }
 
 #myToolbar3 bar-button-item:nth-child(even) {
@@ -780,6 +780,7 @@
 #myToolbar3 bar-button-item:nth-child(odd) {
     background-color : blue;
 }
+
 /** End of ToolbarPreview **/
 
 
@@ -812,15 +813,15 @@
 /** ViewPreview **/
 
 #view1 {
-  background-color : linear-gradient(#cfc0ab, #f1eee6);
+  background-image : linear-gradient(#cfc0ab, #f1eee6);
 }
 
 #view2 {
-  background-color : linear-gradient(#54616f, #687685);
+  background-image : linear-gradient(#54616f, #687685);
 }
 
 #view3 {
-  background-color : linear-gradient(#c7482c, #df5132);
+  background-image : linear-gradient(#c7482c, #df5132);
 }
 
 
@@ -836,7 +837,7 @@
     font-family      : Arial;
     font-size        : 11px;
     font-weight      : bold;
-    background-color : linear-gradient(#4787ed, #4d90fe);
+    background-image : linear-gradient(#4787ed, #4d90fe);
     border-radius    : 2px;
     border-width     : 1px;
     border-color     : #3079ed;

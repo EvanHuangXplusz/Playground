@@ -1,5 +1,5 @@
 #seg1  {
-  background-color : linear-gradient(#7c8084,#c8ced2);
+  background-image : linear-gradient(#7c8084,#c8ced2);
   border-radius    : 3px;
   border-color     : #1f2124;
   border-width     : 1px;
@@ -9,7 +9,7 @@
 }
 
 #seg1 divider {
-  background-color : linear-gradient(#505354, #7f8385);
+  background-image : linear-gradient(#505354, #7f8385);
   background-size  : 1 20;
 }
 
@@ -30,5 +30,5 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }

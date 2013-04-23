@@ -2,13 +2,13 @@
    gradient and rounded corners. No bitmap req'd.  */
 
 #slider1 thumb {
-  background-color : linear-gradient(#808487, #cbd1d5);
+  background-image : linear-gradient(#808487, #cbd1d5);
   background-size  : 16px 16px;
   border-radius    : 8px;
 }
 
 #slider1 min-track {
-  background-color : linear-gradient(#215a88, #4d93dd);
+  background-image : linear-gradient(#215a88, #4d93dd);
   background-size  : 10px 10px;
   background-inset : 0px 5px;
   border-radius    : 5px;
@@ -40,5 +40,5 @@
 
 /* Alter preview pane appearance */
 #previewView {
-  background-color : linear-gradient(#292e31, #3a3f42);
+  background-image : linear-gradient(#292e31, #3a3f42);
 }

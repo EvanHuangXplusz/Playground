@@ -1,7 +1,7 @@
 #activity1  {
   style            : small;
   color            : white;
-  background-color : linear-gradient(#202020, #4d4d4c);
+  background-image : linear-gradient(#202020, #4d4d4c);
   size             : 50px 50px;
   border-radius    : 10px;
   border-width     : 2px;
@@ -11,7 +11,7 @@
 #activity2  {
   style            : small;
   color            : red;
-  background-color : linear-gradient(#202020, #4d4d4c);
+  background-image : linear-gradient(#202020, #4d4d4c);
   size             : 50px 50px;
   border-radius    : 10px;
   border-width     : 2px;
@@ -21,7 +21,7 @@
 #activity3  {
   style            : large;
   color            : lightgreen;
-  background-color : linear-gradient(#202020, #4d4d4c);
+  background-image : linear-gradient(#202020, #4d4d4c);
   size             : 70px 70px;
   border-radius    : 10px;
   border-width     : 2px;

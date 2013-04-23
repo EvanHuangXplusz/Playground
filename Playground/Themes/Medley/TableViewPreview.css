@@ -2,7 +2,7 @@
  * pull table cells down to see the custom styled refresh.
  */
 #myTable {
-    background-color : linear-gradient(black, white);
+    background-image : linear-gradient(black, white);
       separator-style: etched-line;
 }
 

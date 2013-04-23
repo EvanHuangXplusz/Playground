@@ -9,7 +9,7 @@
 }
 
 #myMapBackground {
-  background-color : linear-gradient(45deg,
+  background-image : linear-gradient(45deg,
                                #002000 50%, 
                                #008800 60%);
   background-size  : 495 330;
