@@ -1716,8 +1716,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Framework\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/pixate-ecgyszhvdzzbbkhhcnoqdclzmywq/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/pixate-fxiyrdhpfhvbfjhlaahtvhweuexq/Build/Products/Debug-iphoneos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
@@ -1745,8 +1743,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Framework\"",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/pixate-ecgyszhvdzzbbkhhcnoqdclzmywq/Build/Products/Debug-iphoneos\"",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/pixate-fxiyrdhpfhvbfjhlaahtvhweuexq/Build/Products/Debug-iphoneos\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Playground/Playground-Prefix.pch";
